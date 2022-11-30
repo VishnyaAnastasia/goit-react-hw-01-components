@@ -26,3 +26,7 @@ export const TransactionHistory = ({ transactions }) => {
     </table>
   );
 };
+
+TransactionHistory.propTypes = {
+  transaction: PropTypes.array,
+};
